@@ -1,36 +1,21 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Comparador de performance entre as Árvores Vermelho e Preto e AVL
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
 ## Alunos  
 | Matrícula | Nome |  
 |-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
+| 17/0065251 | Gustavo Veloso |  
+| 17/0039668 | Lucas Ganda |  
 ## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
+Utilizando algumas bibliotecas do Python e a plataforma Jupyter, fizemos um estudo sobre a diferença de performance entre as duas árvores em situações diversas e executando operações de criação, inserção e remoção das árvores.
 ## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
 ### Dependências do projeto
+É necessário possuir todo o ambiente do Jupyter instalado na sua máquina
 ### Como executar o projeto
+Apenas execute o comando no diretório do projeto:<br>
+`$ jupyter notebook`
 ## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+![Print de tela](assets/img/print1.png)  
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
+Com estes estudos foi provado todo o estudo teórico que mostrava o quanto as árvores Vermelha e Preta eram mais perfomáticas nas operações de inserção e remoção.
 ## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+Utilizamos um repositório com a implementação completa da Árvore Vermelha e Preta para otimizar nosso tempo e tornar mais confiável o estudo dos dados. [Árvore Vermelha e preta do stanislavkozlovski](https://github.com/stanislavkozlovski/Red-Black-Tree).
